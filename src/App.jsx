@@ -1,4 +1,4 @@
-
+import './assets/Styles/globalStyles.scss'
 import './App.css'
 import HomePage from './assets/HomePage'
 
