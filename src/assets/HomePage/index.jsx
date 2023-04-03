@@ -1,3 +1,4 @@
+import Gallery from '../Components/Gallery'
 import Header from '../Components/Header'
 import Menu from '../Components/Menu'
 import Slide from '../Components/Slide'
@@ -17,6 +18,9 @@ const HomePage = () => {
                     </div>
                 </section>
             </main>
+            <div>
+                <Gallery />
+            </div>
         </>
     )
 }
