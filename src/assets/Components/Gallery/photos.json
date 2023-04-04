@@ -1,0 +1,143 @@
+[
+    {
+        "titule": "Mário de Andrade I",
+        "author": "Anita Malfatti",
+        "image": "/public/src/Images/Anita/Mario-de-Andrade-I.jpg",
+        "id": "1",
+        "tag": "Anita Malfatti"
+    },
+    {
+        "titule": "The student",
+        "author": "Anita Malfatti",
+        "image": "/public/src/Images/Anita/The-student.jpg",
+        "id": "2",
+        "tag": "Anita Malfatti"
+    },
+    {
+        "titule": "Tropical",
+        "author": "Anita Malfatti",
+        "image": "/public/src/Images/Anita/tropical.jpg",
+        "id": "3",
+        "tag": "Anita Malfatti"
+    },
+    {
+        "titule": "Yellow Man",
+        "author": "Anita Malfatti",
+        "image": "/public/src/Images/Anita/yellow-man.png",
+        "id": "4",
+        "tag": "Anita Malfatti"
+    },
+    {
+        "titule": "Hospital Henry Ford",
+        "author": "Frida Kahlo",
+        "image": "/public/src/Images/Frida/Hospital-Henry-Ford.jpg",
+        "id": "1",
+        "tag": "Frida Kahlo"
+    },
+    {
+        "titule": "The two Fridas",
+        "author": "Frida Kahlo",
+        "image": "/public/src/Images/Frida/the-two-fridas.jpg",
+        "id": "2",
+        "tag": "Frida Kahlo"
+    },
+    {
+        "titule": "The Wounded Deer",
+        "author": "Frida Kahlo",
+        "image": "/public/src/Images/Frida/the-wounded-deer.jpg",
+        "id": "3",
+        "tag": "Frida Kahlo"
+    },
+    {
+        "titule": "Thinking about death",
+        "author": "Frida Kahlo",
+        "image": "/public/src/Images/Frida/Thinking-about-death.jpg",
+        "id": "4",
+        "tag": "Frida Kahlo"
+    },
+    {
+        "titule": "Woman in blue reading a letter",
+        "author": "Johannes Vermeer",
+        "image": "/public/src/Images/Johannes/woman-in-blue-reading-a-letter.jpg",
+        "id": "1",
+        "tag": "Johannes Vermeer"
+    },
+    {
+        "titule": "Girl with pearl earring",
+        "author": "Johannes Vermeer",
+        "image": "/public/src/Images/Johannes/girl-with-pearl-earring.jpg",
+        "id": "2",
+        "tag": "Johannes Vermeer"
+    },
+    {
+        "titule": "The milkmaid",
+        "author": "Johannes Vermeer",
+        "image": "/public/src/Images/Johannes/the-milkmaid.jpg",
+        "id": "3",
+        "tag": "Johannes Vermeer"
+    },
+    {
+        "titule": "Abaporu",
+        "author": "Tarsila do Amaral",
+        "image": "/public/src/Images/Tarsila/Abaporu.png",
+        "id": "1",
+        "tag": "Tarsila do Amaral"
+    },
+    
+    {
+        "titule": "Anthropophagy",
+        "author": "Tarsila do Amaral",
+        "image": "/public/src/Images/Tarsila/Anthropophagy.png",
+        "id": "2",
+        "tag": "Tarsila do Amaral"
+    },
+    
+    {
+        "titule": "Carnival in Madureira",
+        "author": "Tarsila do Amaral",
+        "image": "/public/src/Images/Tarsila/Carnival-in-Madureira.png",
+        "id": "3",
+        "tag": "Tarsila do Amaral"
+    },
+    
+    {
+        "titule": "Setting Sun",
+        "author": "Tarsila do Amaral",
+        "image": "/public/src/Images/Tarsila/Setting-Sun.png",
+        "id": "4",
+        "tag": "Tarsila do Amaral"
+    },
+    
+    {
+        "titule": "Starry night",
+        "author": "Van Gogh",
+        "image": "/public/src/Images/Van-Gogh/starry-night.jpg",
+        "id": "1",
+        "tag": "Van Gogh"
+    },
+    {
+        "titule": "Bedroom in Arles",
+        "author": "Van Gogh",
+        "image": "/public/src/Images/Van-Gogh/bedroom-in-arles.jpg",
+        "id": "2",
+        "tag": "Van Gogh"
+    },
+    
+    
+    {
+        "titule": "Almond blossom",
+        "author": "Van Gogh",
+        "image": "/public/src/Images/Van-Gogh/almond-blossom.jpg",
+        "id": "3",
+        "tag": "Van Gogh"
+    },
+    
+    
+    {
+        "titule": "Sunflowers",
+        "author": "Van Gogh",
+        "image": "/public/src/Images/Van-Gogh/sunflowers.jpg",
+        "id": "4",
+        "tag": "Van Gogh"
+    }
+]
