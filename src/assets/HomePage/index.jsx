@@ -13,7 +13,7 @@ const HomePage = () => {
                     <div className={styles.principal__menu}>
                         <Menu />
                     </div>
-                    <div className={styles.principal__imagem}>
+                    <div className={styles.principal__image}>
                         <Slide />
                     </div>
                 </section>

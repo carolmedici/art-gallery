@@ -6,7 +6,7 @@
     &__list {
       padding-left: 0.5rem;
       margin: 0;
-      width: 10rem;
+      width: 12rem;
       height: 15rem;
       list-style: none;
       display: flex;
@@ -23,8 +23,8 @@
       &:first-child {
         a {
           font-weight: 700;
-          color: #6d6d78;
-          font-family: "GandhiSansRegular";
+          color: var(--menu-begin-color);
+          font-family: var(--font);
         }
       }
     }
@@ -33,12 +33,12 @@
     a {
       text-decoration: none;
       font-size: 1.1rem;
-      color: #b4b3b3;
-      font-family: "GandhiSansRegular"
+      color: var(--menu-color);
+      font-family: var(--font);
     }
 
     a:hover{
-        color: #232324;
+        color: var(--a-hover);
         font-weight: 700;
     }
   }

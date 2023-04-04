@@ -1,11 +1,12 @@
 
 
 .gallery {
-  font-family: sans-serif;
+  font-family: var(--font);
   margin-bottom: 2rem;
+  
 
   h2 {
-    color: purple;
+    color: var(--menu-begin-color);
     font-size: 24px;
   }
 
@@ -18,7 +19,7 @@
   }
 
   &__card {
-    background-color: rgb(162, 115, 88);
+    background-color: var(--author-color);
     border-radius: 2rem;
     height: 20rem;
     width: 18rem;
@@ -46,8 +47,10 @@
       p {
         margin: 0;
         margin-top: 0.5rem;
-        color: rgb(7, 7, 7);
+        color: var(--menu-begin-color);
         font-size: 1rem;
+        font-weight: 500;
+        
       }
 
       span {
@@ -66,13 +69,15 @@
   &__image {
     height: 75%;
     width: 100%;
+    border-radius: 2rem 2rem 0 0 ;
   }
 
   &__description {
     margin: 0;
     padding: 0 16px;
     font-size: 1.25rem;
-    color: black;
-    font-family: sans-serif;
+    color: var(--menu-begin-color);
+    font-family: var(--font);
+    font-weight: 700;
   }
 }

@@ -1,0 +1,36 @@
+.tags {
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--menu-begin-color);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: auto;
+  
+    p {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+  
+    &__list {
+      list-style: none;
+      width: 50rem;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+  
+      li {
+        background-color: var(--author-color);
+        padding: .2rem 1rem;
+        margin: .2rem;
+        border-radius: .8rem;
+        cursor: pointer;
+      }
+
+      li:hover{
+        background-color: var(--li-author-hover);
+        color: var(--author-hover);
+      }
+    }
+  }
