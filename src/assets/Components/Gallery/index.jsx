@@ -1,33 +1,27 @@
 import React from "react";
 import Tags from "../Tags";
+import Cards from "./Cards";
 import styles from "./Gallery.module.scss"
 import photos from "./photos.json"
+import { useState } from "react";
+
 
 const Gallery = () => {
+    const [items, setItems] = useState(photos);
+    const tags = [...new Set(photos.map((valor) => valor.tag))];
+    
+    const PhotosFilter = (tag) => {
+        const newPhotos = photos.filter ((photo) => {
+            return photo.tag === tag;
+        });
+
+        setItems (newPhotos);
+    }
     return ( 
         <section className={styles.gallery}>
         <h2>Browse the gallery</h2>
-        <Tags />
-        <ul className={styles.gallery__cards}>
-            {photos.map((photo)=>{
-                return(
-                    <li key={photo.id} className={styles.gallery__card}>
-                        <img
-                        className={styles.gallery__image}
-                        src={photo.image}
-                        alt={photo.titule}
-                        />
-                        <p className={styles.gallery__description}>{photo.titule}</p>
-                        <div>
-                            <p>{photo.author}</p>
-                            <span>
-                                
-                            </span>
-                        </div>
-                    </li>
-                )
-            })}
-        </ul>
+        <Tags tags={tags} PhotosFilter={PhotosFilter} setItems={setItems}/>
+        <Cards items={items} styles={styles} />
         </section>
      );
 }

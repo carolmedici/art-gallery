@@ -31,56 +31,56 @@
         "titule": "Hospital Henry Ford",
         "author": "Frida Kahlo",
         "image": "/public/src/Images/Frida/Hospital-Henry-Ford.jpg",
-        "id": "1",
+        "id": "5",
         "tag": "Frida Kahlo"
     },
     {
         "titule": "The two Fridas",
         "author": "Frida Kahlo",
         "image": "/public/src/Images/Frida/the-two-fridas.jpg",
-        "id": "2",
+        "id": "6",
         "tag": "Frida Kahlo"
     },
     {
         "titule": "The Wounded Deer",
         "author": "Frida Kahlo",
         "image": "/public/src/Images/Frida/the-wounded-deer.jpg",
-        "id": "3",
+        "id": "7",
         "tag": "Frida Kahlo"
     },
     {
         "titule": "Thinking about death",
         "author": "Frida Kahlo",
         "image": "/public/src/Images/Frida/Thinking-about-death.jpg",
-        "id": "4",
+        "id": "8",
         "tag": "Frida Kahlo"
     },
     {
         "titule": "Woman in blue reading a letter",
         "author": "Johannes Vermeer",
         "image": "/public/src/Images/Johannes/woman-in-blue-reading-a-letter.jpg",
-        "id": "1",
+        "id": "9",
         "tag": "Johannes Vermeer"
     },
     {
         "titule": "Girl with pearl earring",
         "author": "Johannes Vermeer",
         "image": "/public/src/Images/Johannes/girl-with-pearl-earring.jpg",
-        "id": "2",
+        "id": "10",
         "tag": "Johannes Vermeer"
     },
     {
         "titule": "The milkmaid",
         "author": "Johannes Vermeer",
         "image": "/public/src/Images/Johannes/the-milkmaid.jpg",
-        "id": "3",
+        "id": "11",
         "tag": "Johannes Vermeer"
     },
     {
         "titule": "Abaporu",
         "author": "Tarsila do Amaral",
         "image": "/public/src/Images/Tarsila/Abaporu.png",
-        "id": "1",
+        "id": "12",
         "tag": "Tarsila do Amaral"
     },
     
@@ -88,7 +88,7 @@
         "titule": "Anthropophagy",
         "author": "Tarsila do Amaral",
         "image": "/public/src/Images/Tarsila/Anthropophagy.png",
-        "id": "2",
+        "id": "13",
         "tag": "Tarsila do Amaral"
     },
     
@@ -96,7 +96,7 @@
         "titule": "Carnival in Madureira",
         "author": "Tarsila do Amaral",
         "image": "/public/src/Images/Tarsila/Carnival-in-Madureira.png",
-        "id": "3",
+        "id": "14",
         "tag": "Tarsila do Amaral"
     },
     
@@ -104,7 +104,7 @@
         "titule": "Setting Sun",
         "author": "Tarsila do Amaral",
         "image": "/public/src/Images/Tarsila/Setting-Sun.png",
-        "id": "4",
+        "id": "15",
         "tag": "Tarsila do Amaral"
     },
     
@@ -112,14 +112,14 @@
         "titule": "Starry night",
         "author": "Van Gogh",
         "image": "/public/src/Images/Van-Gogh/starry-night.jpg",
-        "id": "1",
+        "id": "16",
         "tag": "Van Gogh"
     },
     {
         "titule": "Bedroom in Arles",
         "author": "Van Gogh",
         "image": "/public/src/Images/Van-Gogh/bedroom-in-arles.jpg",
-        "id": "2",
+        "id": "17",
         "tag": "Van Gogh"
     },
     
@@ -128,7 +128,7 @@
         "titule": "Almond blossom",
         "author": "Van Gogh",
         "image": "/public/src/Images/Van-Gogh/almond-blossom.jpg",
-        "id": "3",
+        "id": "18",
         "tag": "Van Gogh"
     },
     
@@ -137,7 +137,7 @@
         "titule": "Sunflowers",
         "author": "Van Gogh",
         "image": "/public/src/Images/Van-Gogh/sunflowers.jpg",
-        "id": "4",
+        "id": "19",
         "tag": "Van Gogh"
     }
 ]
