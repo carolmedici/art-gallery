@@ -1,7 +1,7 @@
 import Gallery from '../Components/Gallery'
 import Header from '../Components/Header'
 import Menu from '../Components/Menu'
-import Slide from '../Components/Slide'
+import banner from "./tarsila-banner.png"
 import styles from './HomePage.module.scss'
 
 const HomePage = () => {
@@ -14,11 +14,11 @@ const HomePage = () => {
                         <Menu />
                     </div>
                     <div className={styles.principal__image}>
-                        <Slide />
+                    <img src={banner} alt="Tarsila " />
                     </div>
                 </section>
             </main>
-            <div>
+            <div className={styles.gallery}>
                 <Gallery />
             </div>
         </>

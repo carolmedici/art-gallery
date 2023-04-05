@@ -1,61 +1,35 @@
-h1{
-    color: rgb(47, 46, 46);
-    margin-left: 0;
-    font-size: 2rem;
-}
-
-main {
-    margin: 0 24px;
-}
-
 .principal {
     display: flex;
-    align-items: flex-start; /* Ajusta o alinhamento vertical do container */
+    align-items: flex-start; 
     justify-content: space-between;
     margin-top: 2rem;
 
     &__menu {
-        width: 20%; /* Define a largura do Menu */
+        width: 20%; 
     }
 
-    &__imagem {
-        width: 80%; /* Define a largura do Slide */
-        max-height: 400px; /* Ajusta a altura máxima do container do Slide */
+    &__image {
+        width: 80%; 
+        max-height: 40rem; 
         position: relative;
+        top: 2rem;
+        left: -5rem;
+        margin-bottom: 2rem;
+        img {
+            width: 80%;
+            height: 15rem;
+          }
+      
+          position: relative;
+       
 
-        .image-gallery-left-nav, .image-gallery-right-nav {
-            top: 50%; /* Centraliza as setas verticalmente */
-            margin-top: -2rem; /* Ajusta a posição das setas */
-            width: 2rem;
-            height: 2rem;
-            cursor: pointer;
-            color: #902121;
-            text-align: center;
-            font-size: 30px;
-            font-weight: bold;
-            opacity: 0.7;
-            transition: opacity 0.15s ease-in-out;
-            background-color: rgba(0, 0, 0, 0.2);
-            border-radius: 50%;
-            outline: none;
-            border: none;
-
-            &:hover {
-                opacity: 1;
-            }
-
-            &[disabled] {
-                cursor: default;
-                opacity: 0.3;
-            }
-        }
-
-        .image-gallery-left-nav {
-            left: -5rem; /* Posiciona a seta esquerda à esquerda da imagem */
-        }
-
-        .image-gallery-right-nav {
-            right: -5rem; /* Posiciona a seta direita à direita da imagem */
-        }
     }
 }
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 17%;
+    margin-top: 1rem;
+  }
