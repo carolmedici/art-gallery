@@ -2,14 +2,14 @@
     {
         "titule": "Mário de Andrade I",
         "author": "Anita Malfatti",
-        "image": "./public/src/Images/Anita/Mario-de-Andrade-I.jpg",
+        "image": "../public/src/Images/Anita/Mario-de-Andrade-I.jpg",
         "id": "1",
         "tag": "Anita Malfatti"
     },
     {
         "titule": "The student",
         "author": "Anita Malfatti",
-        "image": "../../public/src/Images/Anita/The-student.jpg",
+        "image": ".../public/src/Images/Anita/The-student.jpg",
         "id": "2",
         "tag": "Anita Malfatti"
     },
